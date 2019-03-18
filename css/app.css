@@ -24,6 +24,10 @@ img{
   filter: blur(var(--blur));
 }
 
+.highlight{
+  color:var(--base);
+}
+
 /*CSS Variables*/
 
 :root{
