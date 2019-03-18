@@ -1,3 +1,16 @@
+/*CSS Variables*/
+
+:root{
+  --base:#ffc600;
+  --spacing:10px;
+  --blur:10px;
+}
+
+.highlight{
+  color:var(--base);
+}
+
+
 /*General Pages Stlyes*/
 body{
   display: flex;
@@ -5,13 +18,17 @@ body{
   align-items:center;
   justify-content: center;
   flex-direction:column;
-
   text-align: center;
   background: #193549;
   color: white;
   font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
   font-size: 25px;
+}
+
+input {
+  width: 100px;
+  color:white;
 }
 
 img{
@@ -24,14 +41,5 @@ img{
   filter: blur(var(--blur));
 }
 
-.highlight{
-  color:var(--base);
-}
 
-/*CSS Variables*/
 
-:root{
-  --base:#ffc600;
-  --spacing:10px;
-  --blur:10px;
-}
