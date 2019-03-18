@@ -18,6 +18,10 @@ img{
   margin-top: 2rem;
   max-width: 85%;
   height:auto;
+
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
 
 /*CSS Variables*/
